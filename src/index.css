@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Fira+Code:wght@300;400;500&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -35,19 +38,12 @@
     --radius: 0.5rem;
 
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
@@ -96,6 +92,57 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-portfolio-navy text-portfolio-lightSlate;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-portfolio-lightest font-semibold;
+  }
+
+  a {
+    @apply transition-all duration-300;
+  }
+}
+
+@layer components {
+  .section-heading {
+    @apply flex items-center text-2xl text-portfolio-lightest font-semibold mb-8;
+  }
+
+  .section-heading::before {
+    @apply content-[''] mr-4 h-px w-16 bg-portfolio-teal;
+  }
+
+  .section-heading::after {
+    @apply content-[''] ml-4 h-px flex-grow bg-portfolio-slate/20;
+  }
+  
+  .nav-link {
+    @apply text-portfolio-lightSlate hover:text-portfolio-teal transition-colors duration-300;
+  }
+  
+  .btn-primary {
+    @apply px-6 py-3 border border-portfolio-teal text-portfolio-teal rounded hover:bg-portfolio-teal/10 transition-all duration-300;
+  }
+
+  .animate-delay-100 {
+    animation-delay: 100ms;
+  }
+  
+  .animate-delay-200 {
+    animation-delay: 200ms;
+  }
+  
+  .animate-delay-300 {
+    animation-delay: 300ms;
+  }
+  
+  .animate-delay-400 {
+    animation-delay: 400ms;
+  }
+  
+  .animate-delay-500 {
+    animation-delay: 500ms;
   }
 }
