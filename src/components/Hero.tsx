@@ -6,7 +6,7 @@ const Hero = () => {
     <section className="min-h-screen flex flex-col justify-center pt-16 pb-32">
       <div className="container">
         <p className="text-portfolio-teal font-mono mb-5 animate-fade-in opacity-0" style={{ animationDelay: '100ms' }}>
-          Hi, my name i
+          Hi, my name is
         </p>
         <h1 className="text-5xl md:text-7xl font-bold text-portfolio-lightest mb-4 animate-fade-in opacity-0" style={{ animationDelay: '200ms' }}>
           Ogheneovo Segba
