@@ -35,7 +35,7 @@ const Navbar = () => {
       <div className="container flex justify-between items-center">
         <a href="#" className="text-portfolio-teal text-2xl font-semibold">
           <span className="font-mono">{'<'}</span>
-          <span>YourName</span>
+          <span>Ogheneov Segba</span>
           <span className="font-mono">{' />'}</span>
         </a>
 
