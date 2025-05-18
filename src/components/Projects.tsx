@@ -49,7 +49,7 @@ const Projects = () => {
       description: "An application that helps users find recipes based on ingredients they have.",
       tags: ["JavaScript", "React", "API", "CSS"],
       githubLink: "https://github.com/thatcrazydave",
-      liveLink: "#",
+      liveLink: "https://dishdrive.netlify.app/",
     },
     {
       title: "Budget Tracker",
