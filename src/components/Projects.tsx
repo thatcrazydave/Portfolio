@@ -26,9 +26,9 @@ const Projects = () => {
     {
       title: "Weather Dashboard",
       description: "A weather application that displays current and forecasted weather data using the OpenWeather API.",
-      tags: ["JavaScript", "React", "API", "CSS"],
+      tags: ["JavaScript", "Html", "API", "CSS"],
       githubLink: "https://github.com/thatcrazydave",
-      liveLink: "#",
+      liveLink: "https://deweather.netlify.app/",
     },
     {
       title: "Portfolio Website",
