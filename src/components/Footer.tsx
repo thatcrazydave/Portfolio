@@ -10,7 +10,7 @@ const Footer = () => {
             href="#" 
             className="inline-flex items-center hover:text-portfolio-teal"
           >
-            <span>Designed & Built by John Doe</span>
+            <span>Designed & Built by Ogheneovo Segba</span>
           </a>
         </div>
         <div>&copy; {currentYear} All Rights Reserved</div>
